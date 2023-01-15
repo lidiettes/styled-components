@@ -3,5 +3,5 @@ import styled from "styled-components";
 
 
 export const TextLink = styled(Link)`
-
+    margin: 0;
 `;
