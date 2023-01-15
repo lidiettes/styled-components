@@ -1,7 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import TopTitle from '../compontents/TopTitle/TopTitle'
-import { Home } from '../pages/index'
+import TopTitle from '../components/TopTitle/TopTitle'
+import GridPage from '../pages/GridPage/GridPage'
+import { Class, Home, Animation } from '../pages/index'
 
 
 const router = () => {
@@ -11,6 +12,10 @@ const router = () => {
 
         <Route path='/' element={<TopTitle />}>
             <Route index element={<Home />} />
+            <Route path="class" element={<Class />} />
+            <Route path="animation" element={<Animation />} />
+            <Route path="grid" element={<GridPage />} />
+
         </Route>
 
 

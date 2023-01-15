@@ -1,5 +1,5 @@
 import React from 'react'
-import { Main, Title, SubTitle, TextBody } from '../../ui/index'
+import { Main, Title, SubTitle, TextBody, LinkText } from '../../ui/index'
 
 
 const Home = () => {
@@ -17,7 +17,8 @@ const Home = () => {
         <TextBody>Soft skill? Pelaso </TextBody>
         <TextBody blueText>blablablablablablabalbablablablablablablabalbablablablablablablabalba</TextBody>
         <TextBody redText>blablablablablablabalbablablablablablablabalbablablablablablablabalba</TextBody>
-        <p> Next Page </p>
+        <LinkText to="Class"> Next Page </LinkText>
+      
     </Main>
     
   )

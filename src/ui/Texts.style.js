@@ -29,4 +29,17 @@ export const TextBody = styled.p`
     font-size: ${({ blueText }) => blueText ? '4rem': '1rem'};
     font-weight: 200;
     color: ${ ({ blueText, redText }) => blueText ? 'lightblue' : 'yellow' && redText ? 'red' : 'yellow' };
+
+    &.text__body--p{
+        color: aquamarine;
+    } 
+`;
+
+export const TextBodySecond = styled(TextBody)`
+font-size: 4rem;
+`;
+
+export const TextBodyThird = styled(TextBody)`
+font-size: 8rem;
+color: pink;
 `;
