@@ -1,4 +1,5 @@
 import styled from "styled-components";
+console.log(Menu);
 
 export const Menu = styled.article`
 	grid-area: topmenu;
@@ -54,4 +55,5 @@ export const Grid = styled.section`
         'footer' 15%/
         auto;
     }
+    
 `;
