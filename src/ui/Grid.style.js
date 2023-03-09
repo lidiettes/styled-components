@@ -1,5 +1,5 @@
 import styled from "styled-components";
-console.log(Menu);
+
 
 export const Menu = styled.article`
 	grid-area: topmenu;
